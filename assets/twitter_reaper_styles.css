@@ -1,0 +1,36 @@
+.single-tweet {
+  background-color: #fff;
+  width: 30%;
+  height: 100px;
+  float: left;
+  display: inline-block;
+  border: 1px solid #aaa;
+  margin: 5px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.single-tweet .delete {
+  display: none;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #999;
+  text-align: center;
+}
+.delete a, .delete a:hover, .delete a:visited {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  margin-top: 1px;
+}
+
+
+.single-tweet:hover .delete {
+  display: block;
+}
